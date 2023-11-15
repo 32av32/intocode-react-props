@@ -1,0 +1,16 @@
+.container {
+    grid-area: sidebar;
+    margin-top: 50px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.line {
+    width: 100%;
+    opacity: 40%;
+}
+.item {
+    padding-left: 10px;
+}

@@ -1,0 +1,52 @@
+.container {
+    grid-area: content;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: clamp(150px, 80%, 400px);
+}
+.image {
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    max-height: 220px;
+}
+.title {
+    color: dimgray;
+    padding: 5px 0;
+}
+.button {
+    border-radius: 5px;
+}
+.button a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: white;
+}
+.button_active {
+    background-color: royalblue;
+}
+.button_inactive {
+    background-color: steelblue;
+}
+.prices {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.price {
+    font-size: 18px;
+}
+.discount {
+    color: darkgray;
+    text-decoration: line-through;
+}
